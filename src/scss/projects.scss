@@ -1,0 +1,21 @@
+$blue-marin: rgb(15, 22, 38);
+$golden-color: rgb(214, 159, 62);
+$Bright-coral: rgb(245, 50, 64);
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+$font-teko: ("Teko", sans-serif);
+$font-muli: ("Muli", sans-serif);
+$font-sans-source-pro: ("Source Sans Pro", sans-serif);
+
+.projects-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0f1626;
+  height: 45.1rem;
+  width: 100%;
+}
