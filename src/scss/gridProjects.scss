@@ -6,20 +6,11 @@ $font-teko: ("Teko", sans-serif);
 $font-muli: ("Muli", sans-serif);
 $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
-.projects-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .list-projects-container {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  height: 33rem;
+  align-items: center;
+  height: 40rem;
   width: 80%;
 }
 .gallery-projects {

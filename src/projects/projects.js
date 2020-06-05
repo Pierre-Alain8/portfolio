@@ -9,7 +9,7 @@ const projects = [
     technologies:
       "ReactJs, React redux ,MongoDb, Node Js ,ExpressJs, JwT, gith, github",
     language: "Javascript",
-    categorie: "web",
+    category: "web",
   },
 
   {
@@ -21,11 +21,11 @@ const projects = [
     img: "img/kimia-dekstop.PNG",
     technologies: "ReactJs, Node js, npm, git, github",
     language: "Javascript",
-    categorie: "web",
+    category: "web",
   },
   {
     id: 3,
-    title: "Puissance 4 - Application",
+    title: "Puissance 4 - Application web",
     cover: "img/puissance4.png",
     resume:
       "Projet de formation, consistant à élaboré en javascript natif un 'Puissance 4'",
@@ -33,7 +33,7 @@ const projects = [
 
     technologies: "Jquery, git, github",
     language: "Javascript",
-    categorie: "web",
+    category: "web",
   },
 
   {
@@ -44,22 +44,34 @@ const projects = [
     img: "img/Vod.jpg",
     technologies: "requêtes Ajax",
     language: "javascript",
-    categorie: "web",
+    category: "web",
   },
 
   {
     id: 5,
+    title: "React todoList - Application web",
+    cover: "img/todoList.png",
+    resume:
+      "Développement d'une todoList sous la forme d'une application web React.",
+    img: "img/todoList.png",
+    technologies: "React js, storybook, jest",
+    language: "javascript",
+    category: "web",
+  },
+
+  {
+    id: 6,
     title: "Le cabinet de mccoy - BLOG",
     cover: "img/blog-cover.png",
     resume:
       "Blog personnel traitant de pop culture japonaise, bande déssinée, manga et comics.",
     technologies: "wordpress",
     img: "img/blog-img",
-    categorie: "Blog",
+    category: "blog",
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Guillaume Singelin – Interview",
     cover: "img/PTSD-cover.jpg",
     resume:
@@ -67,11 +79,11 @@ const projects = [
     img: "img/PTSD.jpg",
     technologies: "wordpress",
     langage: null,
-    categorie: "Interviews",
+    category: "interviews",
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Conférence festival d'Annecy : Les enfants de la mer",
     cover: "img/annecy-conference.jpg",
     resume:
@@ -79,7 +91,7 @@ const projects = [
     img: "img/conférence-img.jpg",
     technologies: "wordpress",
     langage: null,
-    categorie: "Interviews",
+    category: "interviews",
   },
 ];
 
