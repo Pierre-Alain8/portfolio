@@ -49,7 +49,7 @@ const Header = (props) => {
           Projets
         </Link>
 
-        <Link onClick={handleClickContact} className="nav-links" to="/">
+        <Link onClick={handleClickContact} className="nav-links" to="/contact">
           <img src="img/Contact.png" alt="contact" />
           Contact
         </Link>

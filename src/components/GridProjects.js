@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import "../scss/gridProjects.scss";
 import { withRouter } from "react-router-dom";
 import ListProjects from "./ListProjects";

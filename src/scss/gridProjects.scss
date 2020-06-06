@@ -8,8 +8,9 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
 .list-projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
+  justify-content: center;
   height: 40rem;
   width: 80%;
 }
