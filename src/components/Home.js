@@ -1,5 +1,6 @@
 import React from "react";
 import "../scss/home.scss";
+import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 const Home = (props) => {
@@ -24,7 +25,9 @@ const Home = (props) => {
       </article>
 
       <div className="contact-button">
-        <button>CONTACT</button>
+        <Link className="link-to-contact" to="/contact">
+          <button> CONTACT</button>
+        </Link>
       </div>
     </section>
   );

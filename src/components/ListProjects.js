@@ -1,35 +1,23 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { withRouter } from "react-router-dom";
 import "../scss/galleryProjects.scss";
 
 const ListProjects = (props) => {
   const { project } = props;
 
-  // const [hideProject, setHideProject] = useState("flex");
+  const dispatch = useDispatch(); // useDispatch consiste à activer les actions du reducer (liste de nos actions)
+  const modal = useSelector((state) => state.modalProjectBool);
 
-  // if (project.category !== "web") {
-  //   setHideProject("none");
-  //   console.log("les projets:", project);
-  //   console.log("les category:", project.category);
-  // }
-  // const targetData = event.currentTarget.category;
-
-  // if (targetData !== "web") {
-  //   setHideProject("none");
-  // }
-
-  // props.getProject(
-  //   if (project.category !== "web") {
-  //   setHideProject("none");
-  //   console.log("les projets:", project);
-  //   console.log("les category:", project.category);
-  // }
-  // )
-
-  console.log("category des projets:", project.category);
+  const handleOpenProject = () => {
+    // Dans le dispatch on spécifie l'action et lui passe les paramètres du projets
+    dispatch({ type: "OPEN_MODAL_PROJECT_BOOL", project: props.project });
+    console.log("ModalBool", modal);
+  };
 
   return (
     <div
+      onClick={handleOpenProject}
       id={project.id}
       data-category={project.category}
       className="media-contenair"

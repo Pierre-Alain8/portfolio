@@ -1,0 +1,67 @@
+import React from "react";
+import "../scss/modalProject.scss";
+import { useSelector } from "react-redux";
+import Modal from "@material-ui/core/Modal";
+
+const ModalProject = (props) => {
+  const modalProjectBool = useSelector((state) => state.modalProjectBool);
+  const project = useSelector((state) => state.project);
+  console.log("modal " + modalProjectBool);
+
+  return (
+    <Modal
+      aria-labelledby="spring-modal-title"
+      aria-describedby="spring-modal-description"
+      open={modalProjectBool}
+    >
+      <div className="modal-project" id={project.id}>
+        <div className="header-modal">
+          <div className="cover-modal-project">
+            <img src={project.cover} alt="project-uniart" />
+          </div>
+
+          <div className="modal-project-title">
+            <h1>{project.title}</h1>
+            <p>{project.subtitle}</p>
+          </div>
+
+          <div className="close-modal">
+            <img src="img/button-close.png" alt="close modal" />
+          </div>
+        </div>
+
+        <div className="project-main">
+          <div className="project-description">
+            <div className="modal-resume-container">
+              <h2>Résumé du projet</h2>
+              <div className="resume-content">
+                <p>{project.resume}</p>
+              </div>
+            </div>
+
+            <div className="tech-container">
+              <h2>TECHNOS</h2>
+              <p>{project.technologies}</p>
+
+              <h2>LANGAGES</h2>
+              <p>{project.language}</p>
+            </div>
+          </div>
+
+          <div className="project-link">
+            <div className="project-image">
+              <img src={project.img} alt="project description" />
+            </div>
+
+            <div className="button-link">
+              <button>LIENS</button>
+              <button>GITHUB</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Modal>
+  );
+};
+
+export default ModalProject;

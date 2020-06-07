@@ -30,7 +30,7 @@ const Header = (props) => {
         </Link>
       </div>
       <div className="navbar">
-        <Link onClick={handleClickAbout} className="nav-links" to="/">
+        <Link onClick={handleClickAbout} className="nav-links" to="/about">
           <img src="img/About.png" alt="about" />
           About
         </Link>

@@ -1,0 +1,132 @@
+$blue-marin: rgb(15, 22, 38);
+$golden-color: rgb(214, 159, 62);
+$Bright-coral: rgb(245, 50, 64);
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+$font-teko: ("Teko", sans-serif);
+$font-muli: ("Muli", sans-serif);
+$font-sans-source-pro: ("Source Sans Pro", sans-serif);
+
+.modal-project {
+  position: fixed;
+  top: 20px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 88%;
+  height: 42.5em;
+}
+.header-modal {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  width: 100%;
+  background-color: $blue-marin;
+
+  .modal-project-title {
+    height: 66%;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid $Bright-coral;
+  }
+  .cover-modal-project {
+    height: 10rem;
+    width: 12rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .close-modal {
+    height: 2rem;
+    width: 2rem;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.project-main {
+  height: 33rem;
+  width: 100%;
+  display: flex;
+
+  .project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+
+    h2 {
+      font-family: $font-teko;
+      color: $Bright-coral;
+      font-size: 1.5em;
+    }
+    .modal-resume-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .resume-content {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+      }
+
+      p {
+        margin: 0;
+        text-align: justify;
+      }
+    }
+  }
+
+  .tech-container {
+    width: 30rem;
+  }
+}
+.project-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.project-image {
+  height: 16rem;
+  width: 85%;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+  button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #f53240;
+    border: 4px solid white;
+    font-family: "Teko", sans-serif;
+    font-size: 2em;
+    color: white;
+  }
+}
