@@ -20,8 +20,22 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   align-items: center;
   background-color: white;
   width: 88%;
-  height: 42.5em;
+  height: 43rem;
 }
+
+.modal-project#project-1 {
+  .project-image {
+    height: 22rem;
+    width: 32rem;
+  }
+}
+.modal-project#project-2 {
+  .project-image {
+    height: 22rem;
+    width: 32rem;
+  }
+}
+
 .header-modal {
   display: flex;
   justify-content: space-between;
@@ -105,8 +119,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 }
 
 .project-image {
-  height: 16rem;
-  width: 85%;
+  height: 22rem;
+  width: 22rem;
 
   img {
     height: 100%;
@@ -123,8 +137,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   button {
     width: 10rem;
     height: 3rem;
-    background-color: #f53240;
-    border: 4px solid white;
+    background-color: $Bright-coral;
+    border: 4px solid $blue-marin;
     font-family: "Teko", sans-serif;
     font-size: 2em;
     color: white;

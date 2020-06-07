@@ -1,12 +1,18 @@
 import React from "react";
 import "../scss/modalProject.scss";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import Modal from "@material-ui/core/Modal";
 
 const ModalProject = (props) => {
+  const dispatch = useDispatch(); // useDispatch consiste à activer les actions du reducer (liste de nos actions)
   const modalProjectBool = useSelector((state) => state.modalProjectBool);
   const project = useSelector((state) => state.project);
   console.log("modal " + modalProjectBool);
+
+  const handleCloseProject = () => {
+    // Dans le dispatch on spécifie l'action et lui passe les paramètres du projets
+    dispatch({ type: "CLOSE_MODAL_PROJECT_BOOL", project: props.project });
+  };
 
   return (
     <Modal
@@ -25,7 +31,7 @@ const ModalProject = (props) => {
             <p>{project.subtitle}</p>
           </div>
 
-          <div className="close-modal">
+          <div onClick={handleCloseProject} className="close-modal">
             <img src="img/button-close.png" alt="close modal" />
           </div>
         </div>
@@ -42,7 +48,6 @@ const ModalProject = (props) => {
             <div className="tech-container">
               <h2>TECHNOS</h2>
               <p>{project.technologies}</p>
-
               <h2>LANGAGES</h2>
               <p>{project.language}</p>
             </div>

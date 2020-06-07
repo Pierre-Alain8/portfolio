@@ -104,3 +104,32 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     }
   }
 }
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .header-portfolio {
+    height: 4.1rem;
+    width: 100%;
+    background-color: $golden-color;
+
+    .home-link {
+      position: none;
+      a {
+        font-family: $font-teko;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      height: 24.4rem;
+    }
+
+    .animation {
+      display: none;
+    }
+  }
+}

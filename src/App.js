@@ -11,16 +11,14 @@ import About from "./components/About";
 function App() {
   return (
     <BrowserRouter>
-      <div className="portfolio-container">
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </div>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
     </BrowserRouter>
   );
 }

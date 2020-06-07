@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: "project-" + 1,
     title: "UNIARTS - WEBSITE",
     subtitle: "projet de fin d’étude 2019-220",
     cover: "img/UNITARTS.PNG",
@@ -14,7 +14,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: "project-" + 2,
     title: "Kimia café - WEBSITE",
     subtitle: "projet de stage - janvier 2020",
     cover: "img/kimia.jpg",
@@ -26,7 +26,7 @@ const projects = [
     category: "web",
   },
   {
-    id: 3,
+    id: "project-" + 3,
     title: "Puissance 4 - Application web",
     subtitle: "projet de formation - octobre-novembre 2020",
     cover: "img/puissance4.png",
@@ -40,7 +40,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: "project-" + 4,
     title: "Projet VOD- WEBSITE",
     subtitle: "projet de formation - octobre-novembre 2020",
     cover: "img/Vod.jpg",
@@ -52,7 +52,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: "project-" + 5,
     title: "React todoList - Application web",
     subtitle: "projet de formation - décembre 2020",
     cover: "img/todoList.png",
@@ -65,7 +65,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: "project-" + 6,
     title: "Le cabinet de mccoy - BLOG",
     subtitle: "blog personnel - 2015 à ajourd'hui",
     cover: "img/blog-cover.png",
@@ -77,7 +77,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: "project-" + 7,
     title: "Guillaume Singelin – Interview",
     subtitle: "blog personnel - 2015 à ajourd'hui",
     cover: "img/PTSD-cover.jpg",
@@ -90,7 +90,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: "project-" + 8,
     title: "Conférence festival d'Annecy : Les enfants de la mer",
     subtitle: "blog personnel - 2015 à ajourd'hui",
     cover: "img/annecy-conference.jpg",

@@ -82,3 +82,31 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     color: white;
   }
 }
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .home-portfolio {
+    display: flex;
+    height: 37.5rem;
+    width: 100%;
+  }
+
+  .intro-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 100%;
+    text-align: left;
+    padding-left: 0rem;
+
+    h1 {
+      text-align: center;
+      font-size: 1.8em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
