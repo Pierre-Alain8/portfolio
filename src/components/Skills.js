@@ -1,6 +1,8 @@
 import React from "react";
 import "../scss/skills.scss";
-import { withRouter, Link } from "react-router-dom";
+import cv from "../files/CV-Pierre-Alain-Agnan-Developpeur-Web.pdf";
+import GetAppSharpIcon from "@material-ui/icons/GetAppSharp";
+import { withRouter } from "react-router-dom";
 
 const Skills = (props) => {
   return (
@@ -58,7 +60,7 @@ const Skills = (props) => {
               <div className="skills">
                 <ul>
                   <li>Méthodes agiles</li>
-                  <li>Travaille en mode projet</li>
+                  <li>Travail en mode projet</li>
                   <li>Compréhension anglais technique</li>
                   <li>Veille, auto-information</li>
                   <li>Responsive design</li>
@@ -99,6 +101,10 @@ const Skills = (props) => {
               </div>
             </div>
           </div>
+
+          <a className="link-cv" download="cv-pierre-alain-agnan" href={cv}>
+            <GetAppSharpIcon /> cv
+          </a>
         </div>
       </div>
     </section>

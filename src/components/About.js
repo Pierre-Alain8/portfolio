@@ -23,7 +23,7 @@ const Home = (props) => {
             </p>
 
             <p>
-              Jeune passionnée de développement web et du numérique. Personne
+              Jeune passionné de développement web et du numérique. Personne
               ayant soif de connaissances, minutieux dans son travail. Fan de
               culture pop et d’art créatif, tel que la bande dessinée (comics,
               manga, bd franco-belge,etc....) dont je traite le sujet au sein

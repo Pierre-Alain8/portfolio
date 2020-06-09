@@ -2,7 +2,7 @@ const projects = [
   {
     id: "project-" + 1,
     title: "UNIARTS - WEBSITE",
-    subtitle: "projet de fin d’étude 2019-220",
+    subtitle: "projet de fin d’étude 2019-2020",
     cover: "img/UNITARTS.PNG",
     resume:
       "UNITARTS est un projet dont l’origine provient d’une volonté d'offrir plus de visibilités aux artistes francophones, en créant un collectif les mettant en avant. Un collectif qu'ils peuvent rejoindre et quitter comme bon leur semble.",
@@ -45,7 +45,7 @@ const projects = [
   {
     id: "project-" + 4,
     title: "Projet VOD- WEBSITE",
-    subtitle: "projet de formation - octobre-novembre 2020",
+    subtitle: "projet de formation - octobre-novembre 2019",
     cover: "img/Vod.jpg",
     resume: "Développement Front-end d'un site de VOD",
     img: "img/Vod.jpg",
@@ -58,7 +58,7 @@ const projects = [
   {
     id: "project-" + 5,
     title: "React todoList - Application web",
-    subtitle: "projet de formation - décembre 2020",
+    subtitle: "projet de formation - décembre 2019",
     cover: "img/todoList.png",
     resume:
       "Développement d'une todoList sous la forme d'une application web React.",

@@ -212,6 +212,24 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
       }
     }
   }
+
+  .link-cv {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 140px;
+    bottom: 10px;
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    padding: 4px 4px;
+    background-color: #f53240;
+    border: 4px solid white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5em;
+    color: white;
+  }
 }
 
 // tablette
@@ -334,6 +352,12 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
           }
         }
       }
+    }
+    .link-cv {
+      right: 88px;
+      bottom: 87px;
+      width: 4rem;
+      height: 2rem;
     }
   }
 }
@@ -490,6 +514,14 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
           }
         }
       }
+    }
+
+    .link-cv {
+      font-size: 1.1em;
+      right: 298px;
+      top: 70px;
+      width: 3rem;
+      height: 1rem;
     }
   }
 }
