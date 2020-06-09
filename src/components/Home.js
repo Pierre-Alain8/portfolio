@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 const Home = (props) => {
   return (
     <section className="home-portfolio">
-      <div className="profile-caontainer">
+      <div className="profile-container">
         <div className="picture-profile">
           <img
             src="img/picture-profile-portfolio.jpg"

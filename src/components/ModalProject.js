@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../scss/modalProject.scss";
 import { useSelector, useDispatch } from "react-redux";
 import Modal from "@material-ui/core/Modal";
@@ -59,8 +60,8 @@ const ModalProject = (props) => {
             </div>
 
             <div className="button-link">
-              <button>LIENS</button>
-              <button>GITHUB</button>
+              <Link>LIENS</Link>
+              <Link>GITHUB</Link>
             </div>
           </div>
         </div>

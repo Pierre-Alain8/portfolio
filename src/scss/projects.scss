@@ -15,8 +15,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #0f1626;
-  height: 45.1rem;
+  height: 100vh;
   width: 100%;
 }
 
@@ -27,4 +26,19 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .projects-portfolio {
+    height: 92vh;
+  }
+
+  .projects-container {
+    width: 100%;
+
+    .list-projects-container {
+      height: 100%;
+      width: 80%;
+    }
+  }
 }

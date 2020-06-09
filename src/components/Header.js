@@ -24,20 +24,21 @@ const Header = (props) => {
 
   return (
     <section className="header-portfolio">
-      <div className="home-link">
-        <Link onClick={handleClickHome} className="home-button" to="/">
-          Home
-        </Link>
-      </div>
       <div className="navbar">
+        <div className="home-link">
+          <Link onClick={handleClickHome} className="home-button" to="/">
+            HOME
+          </Link>
+        </div>
+
         <Link onClick={handleClickAbout} className="nav-links" to="/about">
           <img src="img/About.png" alt="about" />
-          About
+          ABOUT
         </Link>
 
         <Link onClick={handleClickSkills} className="nav-links" to="/skills">
           <img src="img/skills.png" alt="skills" />
-          Compétences
+          SKILLS
         </Link>
 
         <Link
@@ -46,7 +47,7 @@ const Header = (props) => {
           to="/Projects"
         >
           <img src="img/projects.png" alt="projects" />
-          Projets
+          PROJETS
         </Link>
 
         <Link onClick={handleClickContact} className="nav-links" to="/contact">

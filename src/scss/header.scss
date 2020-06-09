@@ -13,13 +13,13 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 45.1rem;
+  height: 100vh;
   width: 8%;
   background-color: $golden-color;
 
   .home-link {
-    position: absolute;
-    bottom: 40rem;
+    position: relative;
+    bottom: 8rem;
     z-index: 1;
     a {
       font-family: $font-teko;
@@ -57,19 +57,19 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     .start-about,
     a:nth-child(2) .animation {
       height: 75px;
-      top: 166px;
+      top: 240px;
     }
 
     .start-skills,
     a:nth-child(3) .animation {
       height: 75px;
-      top: 266px;
+      top: 320px;
     }
 
     .start-projects,
     a:nth-child(4) .animation {
       height: 75px;
-      top: 366px;
+      top: 400px;
     }
 
     .start-contact,
@@ -107,16 +107,15 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
 @media all and (min-width: 320px) and (max-width: 480px) {
   .header-portfolio {
-    height: 4.1rem;
+    height: 8vh;
     width: 100%;
     background-color: $golden-color;
 
     .home-link {
-      position: none;
+      position: inherit;
+
       a {
-        font-family: $font-teko;
-        color: white;
-        text-decoration: none;
+        font-size: 0.8em;
       }
     }
 
@@ -126,6 +125,12 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
       justify-content: space-around;
       width: 100%;
       height: 24.4rem;
+
+      .nav-links {
+        height: fit-content;
+        width: 1.4rem;
+        font-size: 0.8em;
+      }
     }
 
     .animation {

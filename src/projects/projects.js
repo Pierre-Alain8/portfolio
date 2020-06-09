@@ -91,11 +91,11 @@ const projects = [
 
   {
     id: "project-" + 8,
-    title: "Conférence festival d'Annecy : Les enfants de la mer",
+    title: "Festival d'Annecy : Les enfants de la mer",
     subtitle: "blog personnel - 2015 à ajourd'hui",
     cover: "img/annecy-conference.jpg",
     resume:
-      "à l'occasion du Festival international d'animation se déroulant à Annecy, j'ai pu m'entretenir avec le staff ayant réalisé un film d'animation du nom des 'Enfant de la mer'.",
+      "à l'occasion du Festival international d'animation se déroulant à Annecy, j'ai pu m'entretenir avec le staff ayant réalisé un film d'animation du nom des 'Enfant de la mer.",
     img: "img/conférence-img.jpg",
     technologies: "wordpress",
     langage: null,

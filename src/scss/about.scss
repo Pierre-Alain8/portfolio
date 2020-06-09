@@ -13,9 +13,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* align-content: space-evenly; */
   flex-wrap: wrap;
-  background-color: #0f1626;
   height: 45.1rem;
   width: 100%;
 }
@@ -76,5 +74,44 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   img {
     height: 100%;
     width: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .about-portfolio {
+    height: fit-content;
+    width: 100%;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    .about-content {
+      width: 83%;
+      font-size: 0.8em;
+
+      .about-title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        h1 {
+          font-size: 1.5em;
+          margin: 0;
+          margin-top: 1rem;
+        }
+      }
+
+      .about-me {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .about-illustration {
+      display: none;
+    }
   }
 }

@@ -53,15 +53,13 @@ const Skills = (props) => {
           <div className="skills-container">
             <div className="skills-content">
               <div className="skills-title">
-                <h2>Compétences</h2>
+                <h2>COMPETENCES</h2>
               </div>
               <div className="skills">
                 <ul>
                   <li>Méthodes agiles</li>
                   <li>Travaille en mode projet</li>
-                  <li>
-                    Compréhension anglais technique (recherche de documentation)
-                  </li>
+                  <li>Compréhension anglais technique</li>
                   <li>Veille, auto-information</li>
                   <li>Responsive design</li>
                   <li>MERN STACK</li>
@@ -76,7 +74,7 @@ const Skills = (props) => {
         <div className="soft-certification-container">
           <div className="soft-skills-container">
             <div className="soft-skills-content">
-              <h2>SOFT-Skills</h2>
+              <h2>SOFT-SKILLS</h2>
               <div className="soft-skills">
                 <p>
                   Ouvert d’esprit, rigoureux,
@@ -94,11 +92,9 @@ const Skills = (props) => {
               <div className="certification">
                 <p>Méthodes agiles de gestion et amorçage de projet</p>
 
-                <div className="opquast-container">
-                  <p>Opquast</p>
-                  <div className="opquast-cover">
-                    <img src="img/opquast.png" alt="certification opquast" />
-                  </div>
+                <p>Opquast</p>
+                <div className="opquast-cover">
+                  <img src="img/opquast.png" alt="certification opquast" />
                 </div>
               </div>
             </div>

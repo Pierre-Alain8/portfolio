@@ -134,7 +134,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   justify-content: space-evenly;
   width: 100%;
 
-  button {
+  a {
     width: 10rem;
     height: 3rem;
     background-color: $Bright-coral;
@@ -142,5 +142,115 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     font-family: "Teko", sans-serif;
     font-size: 2em;
     color: white;
+  }
+}
+
+.modal-project {
+  position: fixed;
+  top: 58px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  height: 37rem;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .modal-project {
+    top: 17px;
+    left: 8px;
+    width: 95%;
+    height: 34rem;
+  }
+
+  .header-modal {
+    height: 7rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $golden-color;
+
+    .modal-project-title {
+      color: $blue-marin;
+      h1 {
+        margin: 0;
+        font-family: $font-teko;
+        font-size: 1em;
+      }
+      p {
+        font-family: $font-teko;
+        margin: 0rem;
+        font-size: 0.8em;
+      }
+    }
+    .cover-modal-project {
+      display: none;
+    }
+  }
+
+  .project-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .project-description {
+      height: 80%;
+      width: 90%;
+      .modal-resume-container {
+        h2 {
+          margin-top: 1rem;
+          font-size: 1em;
+        }
+
+        p {
+          font-family: $font-muli;
+          font-size: 0.7em;
+        }
+      }
+      .tech-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        h2 {
+          font-size: 1em;
+          margin-top: 1rem;
+        }
+
+        p {
+          font-family: $font-muli;
+          font-size: 0.7em;
+          margin: 0;
+        }
+      }
+      .modal-resume-container {
+        .resume-content {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .project-image {
+    display: none;
+  }
+
+  .project-link {
+    height: fit-content;
+    width: 100%;
+    .button-link {
+      a {
+        text-align: center;
+        width: 5rem;
+        height: 2rem;
+        border: 2px solid #0f1626;
+        font-size: 1.3em;
+      }
+    }
   }
 }
