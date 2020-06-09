@@ -16,10 +16,16 @@
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+// tablette
+@media all and (min-width: 600px) and (max-width: 959px) {
   .nav-projects-container {
     width: 100%;
+  }
+}
 
+@media all and (min-width: 320px) and (max-width: 599px) {
+  .nav-projects-container {
+    width: 100%;
     button {
       width: 5rem;
       height: 2rem;

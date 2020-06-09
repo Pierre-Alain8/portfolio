@@ -12,15 +12,15 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
 .modal-project {
   position: fixed;
-  top: 20px;
-  left: 150px;
+  top: 25px;
+  left: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
-  width: 88%;
-  height: 43rem;
+  width: 90%;
+  height: 40rem;
 }
 
 .modal-project#project-1 {
@@ -33,6 +33,20 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   .project-image {
     height: 22rem;
     width: 32rem;
+  }
+}
+
+.modal-project#project-6 {
+  .project-image {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+
+.modal-project#project-8 {
+  .project-image {
+    height: 20rem;
+    width: 30rem;
   }
 }
 
@@ -70,7 +84,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 }
 
 .project-main {
-  height: 33rem;
+  height: 30rem;
   width: 100%;
   display: flex;
 
@@ -135,32 +149,134 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   width: 100%;
 
   a {
-    width: 10rem;
+    width: 7rem;
     height: 3rem;
-    background-color: $Bright-coral;
-    border: 4px solid $blue-marin;
+    text-align: center;
+    background-color: #f53240;
+    border: 4px solid #0f1626;
     font-family: "Teko", sans-serif;
     font-size: 2em;
     color: white;
   }
 }
 
-.modal-project {
-  position: fixed;
-  top: 58px;
-  left: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  width: 95%;
-  height: 37rem;
+@media all and (min-width: 600px) and (max-width: 959px) {
+  .modal-project {
+    top: 66px;
+    left: 81px;
+    width: 86%;
+    height: 55rem;
+  }
+
+  .modal-project#project-1 {
+    .project-image {
+      height: 17rem;
+      width: 24rem;
+    }
+  }
+
+  .modal-project#project-2 {
+    .project-image {
+      height: 17rem;
+      width: 24rem;
+    }
+  }
+  .modal-project {
+    .project-image {
+      height: 17rem;
+      width: 21rem;
+    }
+  }
+
+  .header-modal {
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $golden-color;
+
+    .modal-project-title {
+      color: $blue-marin;
+      h1 {
+        margin: 0;
+        font-family: $font-teko;
+        font-size: 2em;
+      }
+      p {
+        font-family: $font-teko;
+        margin: 0rem;
+        font-size: 0.8em;
+      }
+    }
+    .cover-modal-project {
+      display: none;
+    }
+  }
+
+  .project-main {
+    height: 48rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .project-description {
+      height: fit-content;
+      width: 70%;
+      .modal-resume-container {
+        h2 {
+          margin-top: 1rem;
+          font-size: 1.8em;
+        }
+
+        p {
+          font-family: "Muli", sans-serif;
+          font-size: 1em;
+        }
+      }
+      .tech-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        h2 {
+          font-size: 1.8em;
+          margin-top: 1rem;
+        }
+
+        p {
+          font-family: "Muli", sans-serif;
+          font-size: 1em;
+          margin: 0;
+        }
+      }
+      .modal-resume-container {
+        .resume-content {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .project-link {
+    height: 23rem;
+    width: 100%;
+    .button-link {
+      a {
+        text-align: center;
+        width: 5rem;
+        height: 2rem;
+        border: 2px solid #0f1626;
+        font-size: 1.3em;
+      }
+    }
+  }
 }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+@media all and (min-width: 320px) and (max-width: 599px) {
   .modal-project {
-    top: 17px;
+    top: 108px;
     left: 8px;
     width: 95%;
     height: 34rem;

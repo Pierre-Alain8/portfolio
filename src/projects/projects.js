@@ -11,6 +11,7 @@ const projects = [
       "ReactJs, React redux ,MongoDb, Node Js ,ExpressJs, JwT, gith, github",
     language: "Javascript",
     category: "web",
+    github: "https://github.com/Pierre-Alain8/projet-UniArts",
   },
 
   {
@@ -24,6 +25,7 @@ const projects = [
     technologies: "ReactJs, Node js, npm, git, github",
     language: "Javascript",
     category: "web",
+    github: "https://github.com/Pierre-Alain8/kimia-projet",
   },
   {
     id: "project-" + 3,
@@ -37,6 +39,7 @@ const projects = [
     technologies: "Jquery, git, github",
     language: "Javascript",
     category: "web",
+    github: "https://github.com/Pierre-Alain8/Puissance4-GameJs-",
   },
 
   {
@@ -49,6 +52,7 @@ const projects = [
     technologies: "requêtes Ajax",
     language: "javascript",
     category: "web",
+    github: "https://github.com/sob-user/site-vod/tree/pierre-alain",
   },
 
   {
@@ -62,6 +66,7 @@ const projects = [
     technologies: "React js, storybook, jest",
     language: "javascript",
     category: "web",
+    github: "https://github.com/Pierre-Alain8/React-Todo-List",
   },
 
   {
@@ -74,6 +79,7 @@ const projects = [
     technologies: "wordpress",
     img: "img/blog-img.PNG",
     category: "blog",
+    link: "http://lecabinetdemccoy.fr",
   },
 
   {
@@ -87,6 +93,7 @@ const projects = [
     technologies: "wordpress",
     langage: null,
     category: "interviews",
+    link: "http://lecabinetdemccoy.fr/2019/04/14/guillaume-singelin-interwiew/",
   },
 
   {
@@ -100,6 +107,8 @@ const projects = [
     technologies: "wordpress",
     langage: null,
     category: "interviews",
+    link:
+      "http://lecabinetdemccoy.fr/2019/06/19/conference-festival-dannecy-les-enfants-de-la-mer/",
   },
 ];
 

@@ -159,9 +159,43 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+// tablette
+@media all and (min-width: 600px) and (max-width: 959px) {
   .contact-portfolio {
-    height: fit-content;
+    height: 100vh;
+    width: 92%;
+
+    .contact-container {
+      flex-direction: column;
+      .form-container {
+        width: 100%;
+
+        .form-contact {
+          .message-container {
+            textarea {
+              height: 16rem;
+              width: 28rem;
+            }
+          }
+        }
+      }
+    }
+
+    .illustration-container {
+      height: fit-content;
+      width: 100%;
+      .contact-illustration {
+        height: 17rem;
+        width: 17rem;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 599px) {
+  .contact-portfolio {
+    height: 90vh;
     .contact-container {
       flex-direction: column;
     }

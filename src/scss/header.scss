@@ -104,8 +104,40 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     }
   }
 }
+@media all and (min-width: 600px) and (max-width: 959px) {
+  .header-portfolio {
+    width: 10%;
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+    .home-link {
+      position: relative;
+      bottom: 8rem;
+      z-index: 1;
+      a {
+        font-family: $font-teko;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 6.5rem;
+      height: 24.4rem;
+      border-radius: 8px;
+
+      .animation {
+        display: none;
+        width: 10%;
+        top: 186px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 599px) {
   .header-portfolio {
     height: 8vh;
     width: 100%;

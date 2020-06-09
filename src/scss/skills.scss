@@ -44,9 +44,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     .tech-content {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: fit-content;
       align-items: center;
-      //   justify-content: center;
       width: 100%;
 
       h2 {
@@ -101,9 +100,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     .skills-content {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: fit-content;
       align-items: center;
-      //   justify-content: center;
       width: 100%;
 
       .skills-title {
@@ -127,10 +125,11 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
         ul {
           display: flex;
           justify-content: space-evenly;
-
+          margin: 0;
+          padding: 0;
           text-align: left;
           flex-direction: column;
-
+          width: 80%;
           height: 100%;
 
           li {
@@ -215,7 +214,131 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+// tablette
+@media all and (min-width: 600px) and (max-width: 959px) {
+  .tech-skills-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+
+    .tech-container {
+      width: 50%;
+      height: fit-content;
+
+      .tech-content {
+        h2 {
+          width: 100%;
+          text-align: center;
+          height: fit-content;
+        }
+        .technos {
+          li {
+            list-style: none;
+            div {
+              font-size: 1.1em;
+              width: 6rem;
+            }
+          }
+        }
+      }
+    }
+
+    .skills-container {
+      width: 50%;
+      height: fit-content;
+
+      .skills-content {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        width: 100%;
+
+        .skills-title {
+          height: fit-content;
+          text-align: center;
+          width: 100%;
+          h2 {
+            font-family: $font-teko;
+            font-size: 2em;
+            color: $Bright-coral;
+            width: 100%;
+          }
+        }
+
+        .skills {
+          ul {
+            text-align: center;
+            padding: 0rem;
+            height: 100%;
+            padding: 0;
+
+            li {
+              font-size: 1.1em;
+            }
+          }
+        }
+      }
+    }
+  }
+  .soft-certification-container {
+    width: 100%;
+    height: fit-content;
+
+    h2 {
+      text-align: center;
+      color: $Bright-coral;
+      font-family: $font-teko;
+      font-size: 2em;
+      margin: 0rem;
+    }
+
+    p {
+      text-align: center;
+      margin: 0;
+      font-size: 1.1em;
+    }
+    .soft-skills-container {
+      width: 30%;
+
+      .soft-skills-content {
+        width: 100%;
+      }
+    }
+
+    .certification-container {
+      width: 30%;
+      height: fit-content;
+      .certification-content {
+        height: fit-content;
+        width: 100%;
+      }
+
+      .certification {
+        p {
+          text-align: center;
+          font-size: 1.1em;
+          color: white;
+          margin: 0;
+        }
+
+        .opquast-cover {
+          display: none;
+          height: 5rem;
+          width: 5rem;
+          object-fit: contain;
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 599px) {
   .bar-1 {
     display: none;
   }
@@ -224,7 +347,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   }
 
   .skills-portfolio {
-    height: fit-content;
+    height: 90vh;
     .skills-home-container {
       display: flex;
       justify-content: space-evenly;

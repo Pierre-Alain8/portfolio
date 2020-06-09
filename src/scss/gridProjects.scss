@@ -15,7 +15,14 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   width: 80%;
 }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+// tablette
+@media all and (min-width: 600px) and (max-width: 959px) {
+  .list-projects-container {
+    height: fit-content;
+    width: 90%;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 599px) {
   .list-projects-container {
     width: 90%;
   }
