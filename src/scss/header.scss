@@ -19,7 +19,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
   .home-link {
     position: relative;
-    bottom: 8rem;
+    bottom: 123px;
     z-index: 1;
     a {
       font-family: $font-teko;
@@ -144,7 +144,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     background-color: $golden-color;
 
     .home-link {
-      position: inherit;
+      position: relative;
+      bottom: 0px;
 
       a {
         font-size: 0.8em;

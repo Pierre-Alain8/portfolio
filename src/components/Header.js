@@ -25,11 +25,13 @@ const Header = (props) => {
   return (
     <section className="header-portfolio">
       <div className="navbar">
-        <div className="home-link">
-          <Link onClick={handleClickHome} className="home-button" to="/">
-            HOME
-          </Link>
-        </div>
+        <Link
+          onClick={handleClickHome}
+          className=" nav-links home-button"
+          to="/"
+        >
+          HOME
+        </Link>
 
         <Link onClick={handleClickAbout} className="nav-links" to="/about">
           <img src="img/About.png" alt="about" />
