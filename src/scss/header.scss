@@ -51,7 +51,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     .start-home,
     a:nth-child(1) .animation {
       height: 75px;
-      top: 40px;
+      top: 170px;
     }
 
     .start-about,
@@ -142,6 +142,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     height: 12vh;
     width: 100%;
     background-color: $golden-color;
+    position: relative;
+    z-index: 3;
 
     .home-link {
       position: relative;
@@ -157,7 +159,8 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
       flex-direction: row;
       justify-content: space-around;
       width: 100%;
-      height: 24.4rem;
+      align-items: baseline;
+      margin-top: 0.5rem;
 
       .nav-links {
         height: fit-content;
