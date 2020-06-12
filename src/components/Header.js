@@ -44,6 +44,7 @@ const Header = (props) => {
         </Link>
 
         <Link
+          id="project-link"
           onClick={handleClickProjects}
           className="nav-links"
           to="/Projects"

@@ -13,7 +13,9 @@ const NavProjects = (props) => {
 
   return (
     <div className="nav-projects-container">
-      <button onClick={() => showProject("web")}>Web </button>
+      <button id="button-project" onClick={() => showProject("web")}>
+        Web{" "}
+      </button>
       <button onClick={() => showProject("blog")}>Blog</button>
       <button onClick={() => showProject("interviews")}>Interviews</button>
     </div>

@@ -276,10 +276,34 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
 
 @media all and (min-width: 320px) and (max-width: 599px) {
   .modal-project {
-    top: 57px;
+    top: 21px;
     left: 8px;
     width: 95%;
-    height: 34rem;
+    height: 38rem;
+  }
+
+  .modal-project#project-7 {
+    .project-image {
+      height: 11rem;
+      width: 15rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .modal-project#project-8 {
+    .project-image {
+      height: 11rem;
+      width: 17rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .modal-project#project-6 {
+    .project-image {
+      height: 10rem;
+      width: 14rem;
+      margin-bottom: 1rem;
+    }
   }
 
   .header-modal {
@@ -307,6 +331,7 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   }
 
   .project-main {
+    height: 31rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -353,19 +378,21 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
   }
 
   .project-image {
-    display: none;
+    height: 3rem;
+    width: 3rem;
   }
 
   .project-link {
     height: fit-content;
     width: 100%;
     .button-link {
+      margin-bottom: 1rem;
       a {
         text-align: center;
-        width: 5rem;
-        height: 2rem;
+        width: 4rem;
+        height: 1.5rem;
         border: 2px solid #0f1626;
-        font-size: 1.3em;
+        font-size: 1em;
       }
     }
   }

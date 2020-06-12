@@ -3,7 +3,11 @@
   justify-content: space-evenly;
   align-items: center;
   height: 3rem;
-  width: 54rem;
+  width: 27rem;
+
+  #button-project {
+    display: none;
+  }
 
   button {
     width: 10rem;
