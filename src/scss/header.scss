@@ -70,7 +70,13 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     #home-button {
       width: 10rem;
       height: 5rem;
+      #text {
+        display: none;
+      }
 
+      #home-img-2 {
+        display: none;
+      }
       img {
         height: 100%;
         width: 100%;
@@ -161,6 +167,28 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
       width: 100%;
       align-items: baseline;
       margin-top: 0.5rem;
+
+      #home-button {
+        height: fit-content;
+        width: 1.4rem;
+        font-size: 0.8em;
+        #text {
+          display: flex;
+        }
+
+        #home-img-1 {
+          display: none;
+        }
+
+        #home-img-2 {
+          display: flex;
+        }
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
 
       .nav-links {
         height: fit-content;
