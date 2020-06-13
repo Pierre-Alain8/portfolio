@@ -1,12 +1,18 @@
 import React from "react";
 import "../scss/skills.scss";
+import { motion } from "framer-motion";
 import cv from "../files/CV-Pierre-Alain-Agnan-Developpeur-Web.pdf";
 import GetAppSharpIcon from "@material-ui/icons/GetAppSharp";
 import { withRouter } from "react-router-dom";
 
 const Skills = (props) => {
   return (
-    <section className="skills-portfolio">
+    <motion.section
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="skills-portfolio"
+    >
       <div className="skills-home-container">
         <div className="tech-skills-container">
           <div className="tech-container">
@@ -107,7 +113,7 @@ const Skills = (props) => {
           </a>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,10 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "../scss/about.scss";
 import { withRouter } from "react-router-dom";
 
 const Home = (props) => {
   return (
-    <section className="about-portfolio">
+    <motion.section
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="about-portfolio"
+    >
       <div className="about-container">
         <div className="about-content">
           <div className="about-title">
@@ -45,7 +51,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

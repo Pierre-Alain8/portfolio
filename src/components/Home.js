@@ -1,11 +1,17 @@
 import React from "react";
 import "../scss/home.scss";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
 const Home = (props) => {
   return (
-    <section className="home-portfolio">
+    <motion.section
+      className="home-portfolio"
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
       <div className="profile-container">
         <div className="picture-profile">
           <img
@@ -32,7 +38,7 @@ const Home = (props) => {
           <button> CONTACT</button>
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

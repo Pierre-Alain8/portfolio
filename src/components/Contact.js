@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { motion } from "framer-motion";
 import FormGroup from "@material-ui/core/FormGroup";
 import "../scss/contact.scss";
 import { withRouter } from "react-router-dom";
@@ -46,7 +47,12 @@ class Contact extends Component {
   };
   render() {
     return (
-      <section className="contact-portfolio">
+      <motion.section
+        initial={{ opacity: 0 }}
+        exit={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="contact-portfolio"
+      >
         <div className="contact-container">
           <div className="form-container">
             <h1>CONTACTEZ-MOI</h1>
@@ -112,7 +118,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     );
   }
 }
