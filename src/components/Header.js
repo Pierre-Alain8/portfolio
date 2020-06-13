@@ -33,7 +33,6 @@ const Header = (props) => {
         >
           <img id="home-img-1" src="img/Logo-v2.png" alt="logo v2" />
           <img id="home-img-2" src="img/home.png" alt="home" />
-          HOME
         </Link>
 
         <Link onClick={handleClickAbout} className="nav-links" to="/about">
