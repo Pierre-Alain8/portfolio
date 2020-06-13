@@ -27,10 +27,11 @@ const Header = (props) => {
       <div className="navbar">
         <Link
           onClick={handleClickHome}
-          className=" nav-links home-button"
+          id="home-button"
+          className="nav-links"
           to="/"
         >
-          HOME
+          <img src="img/Logo-v2.png" alt="logo v2" />
         </Link>
 
         <Link onClick={handleClickAbout} className="nav-links" to="/about">

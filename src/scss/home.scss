@@ -62,6 +62,20 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     font-size: 2em;
     color: white;
   }
+
+  .logo-container {
+    height: fit-content;
+    position: absolute;
+    width: 30vw;
+    left: 950px;
+    bottom: 200px;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
 }
 
 .contact-button {
@@ -93,6 +107,14 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
       text-align: center;
       padding: 0;
       width: 100%;
+
+      .logo-container {
+        height: 9vh;
+        position: absolute;
+        width: 20vw;
+        top: 22px;
+        left: 109px;
+      }
     }
     .profile-container {
       .picture-profile {
@@ -134,6 +156,19 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     width: 100%;
     text-align: left;
     padding-left: 0rem;
+
+    .logo-container {
+      height: 6vh;
+      position: absolute;
+      width: 20vw;
+      top: 22px;
+      left: 13px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
 
     h1 {
       text-align: center;

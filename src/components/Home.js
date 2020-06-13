@@ -22,6 +22,9 @@ const Home = (props) => {
         </h1>
 
         <p>Front-end /back-end/javascript</p>
+        <div className="logo-container">
+          <img src="img/Logo-v1.png" alt="logo portfolio" />
+        </div>
       </article>
 
       <div className="contact-button">
