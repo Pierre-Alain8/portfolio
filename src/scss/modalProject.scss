@@ -306,6 +306,13 @@ $font-sans-source-pro: ("Source Sans Pro", sans-serif);
     }
   }
 
+  .modal-project#project-1 {
+    .project-image {
+      height: 14rem;
+      width: 20rem;
+    }
+  }
+
   .header-modal {
     height: 7rem;
     justify-content: space-evenly;
