@@ -1,5 +1,5 @@
 const initialState = {
-  projectFilter: "blog",
+  projectFilter: "web",
   modalProjectBool: false,
   project: {},
 };
