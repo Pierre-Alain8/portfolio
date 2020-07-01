@@ -14,7 +14,7 @@ const NavProjects = (props) => {
   return (
     <div className="nav-projects-container">
       <button id="button-project" onClick={() => showProject("web")}>
-        Web{" "}
+        Web
       </button>
       <button onClick={() => showProject("blog")}>Blog</button>
       <button onClick={() => showProject("interviews")}>Interviews</button>
