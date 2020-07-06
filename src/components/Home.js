@@ -28,9 +28,6 @@ const Home = (props) => {
         </h1>
 
         <p>Front-end /back-end/javascript</p>
-        <p>
-          Recherche contrat d'alternance 1 semaine école/ 3 semaines entreprise
-        </p>
         <div className="logo-container">
           <img src="img/Logo-v1.png" alt="logo portfolio" />
         </div>
