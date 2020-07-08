@@ -69,19 +69,20 @@ const projects = [
   //   github: "https://github.com/sob-user/site-vod/tree/pierre-alain",
   // },
 
-  // {
-  //   id: "project-" + 5,
-  //   title: "React todoList - Application web",
-  //   subtitle: "projet de formation - décembre 2019",
-  //   cover: "img/todoList.png",
-  //   resume:
-  //     "Développement d'une todoList sous la forme d'une application web React.",
-  //   img: "img/todoList.png",
-  //   technologies: "React js, storybook, jest",
-  //   language: "javascript",
-  //   category: "web",
-  //   github: "https://github.com/Pierre-Alain8/React-Todo-List",
-  // },
+  {
+    id: "project-" + 5,
+    title: "React todoList - Application web",
+    subtitle: "projet de formation - décembre 2019",
+    cover: "img/todoList.png",
+    resume:
+      "Développement d'une todoList sous la forme d'une application web React.",
+    img: "img/todoList.png",
+    technologies: "React js, storybook, jest",
+    language: "javascript",
+    category: "web",
+    link: "https://react-todo-list-pa.stackblitz.io",
+    github: "https://github.com/Pierre-Alain8/React-Todo-List",
+  },
 
   {
     id: "project-" + 6,
